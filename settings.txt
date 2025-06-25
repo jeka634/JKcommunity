@@ -1,0 +1,37 @@
+# Настройки Telegram бота для чата
+# Файл конфигурации - измените значения по необходимости
+
+# Вероятности начисления очков (от 0.0 до 1.0)
+BASE_PROBABILITY=0.25
+BOOST_PROBABILITY=0.39
+
+# Время буста активности (по МСК, 24-часовой формат)
+BOOST_START_HOUR=20
+BOOST_END_HOUR=23
+
+# Очки за сообщение
+POINTS_PER_MESSAGE=10
+
+# Минимум слов для получения очков
+MIN_WORDS_FOR_POINTS=3
+
+# Пороги достижений (очки)
+POINTS_THRESHOLDS=200,500,1000,2000,5000,10000
+
+# Время ежедневного отчета (по МСК)
+DAILY_REPORT_HOUR=22
+DAILY_REPORT_MINUTE=0
+
+# Время сброса достижений (по МСК)
+RESET_ACHIEVEMENTS_HOUR=0
+RESET_ACHIEVEMENTS_MINUTE=0
+
+# Время проверки победителя месяца (по МСК, 1-го числа)
+MONTHLY_WINNER_CHECK_HOUR=1
+MONTHLY_WINNER_CHECK_MINUTE=0
+
+# Количество пользователей в топах
+TOP_USERS_LIMIT=10
+
+# Количество победителей месяцев в истории
+MONTHLY_WINNERS_HISTORY_LIMIT=10 
